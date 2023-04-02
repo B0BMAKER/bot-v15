@@ -21,21 +21,21 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //=================================================//
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/c/HwModsWa857' // ubah aia
-global.ig = '@hikal857' // ubah aja
-global.email = 'denyp857@gmail.com' //serah
+global.group = 'https://chat.whatsapp.com/FP4aGWEuYm12mnMr0iqq02' // ubah aia
+global.ig = '@robotkupintar' // ubah aja
+global.email = 'trevorx@gmail.com' //serah
 global.region = 'indonesia' // serah
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = 'FHAQY' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.botname = 'FHAQY' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.footer = 'FHAQY' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
-global.owner = ['6289669762714','6289669762714','6289669762714'] // ubah aja pake nomor lu
-global.creator = "6289669762714@s.whatsapp.net"
-global.premium = ['6289669762714'] // ubah aja pake nomor lu
-global.packname = 'FHAQY' // ubah aja
-global.ownerr = ['FHAQY'] // ubaha aja
-global.author = 'FHAQY' //ubah aja
+global.owner = ['6285814480623','6282278082114','601124127078','6285934976967','6281231655942','13372551919] // ubah aja pake nomor lu
+global.creator = "6285814480623@s.whatsapp.net"
+global.premium = ['6285814480623'] // ubah aja pake nomor lu
+global.packname = 'Tn•Forbidden404' // ubah aja
+global.ownerr = ['Tn•Forbidden404'] // ubaha aja
+global.author = 'Tn•Forbidden404' //ubah aja
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sessionName = 'haikal' //Gausah Juga
 global.sp = '⭔' // Gausah Juga
