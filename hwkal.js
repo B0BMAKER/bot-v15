@@ -30,7 +30,7 @@ global.ownername = 'FHAQY' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.botname = 'FHAQY' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
 global.footer = 'FHAQY' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
-global.owner = ['6285814480623','6282278082114','601124127078','6285934976967','6281231655942','13372551919] // ubah aja pake nomor lu
+global.owner = ['6285814480623','6282278082114','601124127078','6285934976967','6281231655942','13372551919'] // ubah aja pake nomor lu
 global.creator = "6285814480623@s.whatsapp.net"
 global.premium = ['6285814480623'] // ubah aja pake nomor lu
 global.packname = 'Tn•Forbidden404' // ubah aja
